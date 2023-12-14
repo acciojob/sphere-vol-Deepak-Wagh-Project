@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault()
     const radius=radiusInput.value;
     console.log(radius)
-    let volume=22*radius/7;
+    let volume=22*radius*radius*radius/7;
     volumeInput.value=volume;
     console.log(volumeInput.value)
 })
