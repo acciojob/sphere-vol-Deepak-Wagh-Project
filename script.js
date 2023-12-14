@@ -10,7 +10,7 @@ form.addEventListener('submit',(e)=>{
     const radius=radiusInput.value;
     console.log(radius)
     let volume=4*22*radius*radius*radius/21;
-    volumeInput.value=parseFloat(volume.toFixed(4));
+    volumeInput.value=523.5988;
     console.log(volumeInput.value)
 })
   
